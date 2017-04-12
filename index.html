@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+	<title>Test page</title>
+</head>
+<body>
+	<OBJECT id="ActiveXComponent" classid="clsid:1A0C0EC8-829B-457F-B5A1-2EF1ED8FB9CD" codebase="MyControl.cab"></OBJECT>>
+<script type ="text/javascript">
+	try{
+		var obj = document.ActiveXComponent;
+		if(obj){
+			    obj.ShowWindow();
+			}
+		else
+		{
+			alert("Object is not created!");
+		}
+	}
+	catch (ex)
+	{
+	alert("Some troubles: " + ex.Description);
+	}
+	</script>
+</body>
+</html>
