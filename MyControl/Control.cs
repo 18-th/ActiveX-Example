@@ -92,7 +92,7 @@ namespace MyControl
             this.FirstButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             //
-            // textBox1
+            // FirstPanel
             //
             this.FirstPanel.Location = new System.Drawing.Point(40, 20);
             this.FirstPanel.Name = "FirstPanel";
@@ -100,7 +100,7 @@ namespace MyControl
             this.FirstPanel.TabIndex = 0;
             this.FirstPanel.BackColor = Color.Black;
             //
-            // textBox2
+            // FirstButton
             //
             this.FirstButton.Location = new System.Drawing.Point(700, 20);
             this.FirstButton.Name = "FirstButton";
